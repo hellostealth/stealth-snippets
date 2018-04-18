@@ -1,0 +1,36 @@
+'.source.yaml':
+    'Stealth Reply Text':
+      'prefix': 'srt'
+      'body': """
+      - reply_type: text
+        text: $1
+      """
+
+    'Stealth Reply Image':
+      'prefix': 'sri'
+      'body': """
+      - reply_type: image
+        image_url: $1
+      """
+
+    'Stealth Reply Image Text':
+      'prefix': 'sri'
+      'body': """
+      - reply_type: image
+        text: $1
+        image_url: $2
+      """
+
+    'Stealth Reply Video':
+      'prefix': 'srv'
+      'body': """
+      - reply_type: video
+        video_url: $1
+      """
+
+    'Stealth Reply Delay':
+      'prefix': 'srd'
+      'body': """
+      - reply_type: delay
+        duration: $1
+      """

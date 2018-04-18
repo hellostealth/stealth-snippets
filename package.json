@@ -1,0 +1,27 @@
+{
+  "name": "stealth-snippets",
+  "main": "./lib/stealth-snippets",
+  "version": "0.0.1",
+  "description": "Snippets for your Stealth Bots.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "stealth-snippets:toggle"
+  },
+  "snippets": [
+    "replies"
+  ],
+  "keywords": [
+    "stealth",
+    "snippets",
+    "yaml",
+    "ruby"
+  ],
+  "repository": "https://github.com/atom/stealth-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
